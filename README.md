@@ -4,6 +4,7 @@
 Toastr.js is a simple and customizable toast notification system for HTML, allowing you to display non-intrusive pop-up notifications with custom styling.
 
 ## Features
+
 - Display toast notifications with custom icons and styles
 - Easy to customize positioning, appearance, and behavior
 - Supports different types of notifications: success, error, info, and warning
@@ -34,11 +35,13 @@ toaster("This is a warning message", "warning");
 ```
 
 ### Parameters:
+
 - `msg`: The message to be displayed in the toast.
 - `ttype`: The type of toast (options: `info`, `success`, `error`, `warning`). Default is `info`.
 - `opt`: Optional configuration object for customization (position, icon, UI classes, and more).
 
 ### Example with Custom Options:
+
 ```js
 toaster("Custom styled message", "success", {
     position: "top-left", // Position of the toast (top-left, top-right, bottom-left, bottom-right)
