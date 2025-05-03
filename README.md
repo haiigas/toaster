@@ -1,4 +1,3 @@
-
 # Toastr.js
 
 Toastr.js is a simple and customizable toast notification system for HTML, allowing you to display non-intrusive pop-up notifications with custom styling.
